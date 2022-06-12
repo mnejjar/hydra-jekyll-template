@@ -1,7 +1,7 @@
 # ----
 # Site
 
-title: Hydra Template
+title: MNI Belgium
 url: "https://proud-alligator.cloudvent.net"
 baseurl:
 google_analytics_key:
@@ -86,14 +86,7 @@ exclude:
 
 _select_data:
   social_icons:
-    - Facebook
-    - Instagram
     - LinkedIn
-    - Pinterest
-    - Tumblr
-    - Twitter
-    - YouTube
-    - RSS
 
 _comments:
   map: Update the map location and display settings.
