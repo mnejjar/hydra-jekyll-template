@@ -10,7 +10,7 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap', '~> 1.4.0'
   gem 'tzinfo-data'
   gem 'tzinfo'
-  gem 'wdm'
+  gem 'wdm', '>= 0.1.0' if RbConfig::CONFIG['target_os'] =~ /mswin|mingw|cygwin/i
 end
 
 gem "webrick", "~> 1.7"
